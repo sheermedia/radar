@@ -1,0 +1,1432 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	min-width: 250px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+@font-face {
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans.ttf);
+}
+@font-face {
+	font-family: Opensans-light;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: Timeburner;
+	src: url(../fonts/timeburner_regular.ttf);
+}
+.bg {
+	background: url(../images/background.png) no-repeat !important;
+	background-size: cover !important;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+/*================================= Login Page Styles Starts here =================================*/
+.loginForm h3 {
+	font-family: Opensans-light;
+	font-size: 22px;
+	color: #fff;
+	font-weight: normal;
+}
+.loginForm form {
+	width: 100%;
+}
+.loginForm .textBox {
+	margin-bottom: 30px !important;
+}
+.loginForm div.ui-input-text {
+	margin-bottom: 36px;
+}
+.loginForm a {
+	color: #fff !important;
+	text-shadow: none;
+	font-weight: normal !important;
+	text-decoration: none;
+	font-family: Opensans-light;
+}
+.signUp {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.signUp a {
+	color: #fff !important;
+	text-shadow: none;
+	font-weight: normal !important;
+	text-decoration: none;
+	font-family: Opensans-light;
+}
+.signIn {
+	width: 50%;
+	float: right;
+	text-align: left;
+}
+.signIn a {
+	color: #fff !important;
+	text-shadow: none;
+	font-weight: normal !important;
+	text-decoration: none;
+	font-family: Opensans-light;
+}
+/*================================= Home Page Styles Starts here =================================*/
+.birthdaylist {
+	width: 80%;
+	margin: 0 auto;
+}
+.birthdaylist ul {
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+	margin-bottom: 40px;
+}
+.birthdaylist ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.birthdaylist ul li h4 {
+	float: left;
+	width: 100%;
+	font-family: Opensans-light;
+	color: #fff;
+	font-weight: normal;
+	font-size: 48px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	text-shadow: none !important;
+}
+.birthdaylist ul li span {
+	float: left;
+	width: 100%;
+}
+.reminderDetails {
+	float: left;
+	width: 63%;
+	cursor: pointer;
+}
+.reminderDetails .name {
+	font-family: Opensans-light;
+	color: #000;
+	font-style: italic;
+	font-size: 36px;
+	text-shadow: none !important;
+}
+.reminderDetails .date {
+	font-family: Opensans-light;
+	color: #fff;
+	font-size: 22px;
+	text-shadow: none !important;
+}
+.img {
+	float: left;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.bottomBtn {
+	bottom: 0px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	clear: both;
+}
+.bottomBtn img {
+	bottom: -5px;
+	clear: both;
+	position: relative;
+	cursor: pointer;
+}
+.swipeBtn {
+	position: fixed;
+	left: 0px;
+	top: 45%;
+}
+.icon {
+	float: left;
+}
+.icon img {
+	margin-top: 10px;
+}
+.innerReminder {
+	float: right;
+	width: 84%;
+}
+#menu {
+	background: #4a4d46 !important;
+	width: 90px;
+}
+#menu .ui-content {
+	padding: 0px;
+	margin-top: 100px;
+}
+#menu ul {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+#menu ul li {
+	list-style: none !important;
+	margin-bottom: 10px;
+}
+#menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	font-weight: normal !important;
+	font-family: Opensans-light !important;
+	font-size: 12px;
+}
+/*==== Home Page Styles ends here ====*/
+
+/*================================= Category Page Styles Starts here*/
+.category h3 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+.circle {
+	width: 400px;
+	height: 400px;
+	border: dotted 4px #fff;
+	border-radius: 500px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+	text-align: center;
+}
+#pastryBtn {
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+}
+#cakeBtn {
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+}
+#flowerBtn {
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+#giftBtn {
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.drophere {
+	width: 150px;
+	height: 150px;
+	background: rgba(0,0,0,0.25);
+	border-radius: 300px;
+}
+/*================================= Choose Item Page Styles Starts here =================================*/
+
+.topNav {
+	height: 60px !important;
+	background: #343630 !important;
+	text-align: center;
+}
+.back, .more {
+	background: none !important;
+	border-radius: 0px !important;
+	border: 0px !important;
+	box-shadow: none !important;
+	margin-top: 5px !important;
+}
+.back img {
+	width: 30px;
+}
+.back span, .more span {
+	border: 0px !important;
+}
+.more img {
+	margin-top: 0px;
+	width: 30px;
+}
+.topNav h4 {
+	font-family: Timeburner;
+	color: #fff;
+	font-weight: normal;
+	font-size: 28px !important;
+	margin-top: 10px !important;
+}
+#itemContent h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+#itemContent ul {
+	margin: 0 auto;
+	padding: 0px;
+	width: 80%;
+}
+#itemContent ul li {
+	list-style: none;
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+#itemContent ul li .pastriesImg {
+	float: left;
+	width: 148px;
+	height: 148px;
+	position: relative;
+	background: #fff;
+	border-radius: 150px;
+}
+.pastriesImg img {
+	float: left;
+	border-radius: 150px;
+	width: 100%;
+	height: 100%;
+}
+.pastryName {
+	text-align: left;
+	float: left;
+	color: #000;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: none;
+	margin-top: 15px;
+}
+.pastryName h3 {
+	font-weight: normal;
+	font-size: 26px !important;
+	float: left;
+	display: block;
+}
+.pastryName h3 a {
+	color: #000 !important;
+	text-decoration: none !important;
+	font-weight: normal !important;
+}
+.pastryName span {
+	float: right;
+}/*===== Choose Item Page ends Starts here =====*/
+/*================================= Map Page Starts here ==============================================*/
+
+#map .ui-content {
+	padding: 0px;
+	width: 100%;
+}
+.searchBar {
+	height: 190px;
+	width: 100%;
+	background: #fff;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
+	box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
+	position: absolute;
+}
+.searchBar h4 {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-family: Opensans-light;
+	font-size: 28px;
+	font-weight: normal !important;
+	margin-top: 10px;
+}
+.map {
+	width: 100%;
+	float: left;
+}
+.mapfeatures {
+	width: 100%;
+	background: #fff;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	-webkit-box-shadow: 0px -2px 10px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px -2px 10px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px -2px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.mapfeatures ul {
+	margin: 0px;
+	padding: 0px;
+}
+.mapfeatures ul li {
+	list-style: none !important;
+	display: inline !important;
+	margin-right: 30px;
+}
+.mapSearch {
+	width: 100%;
+	text-align: center;
+}
+.mapSearch a {
+	float: left;
+}
+.mapSearch .search {
+	float: left;
+	background: #e4e4e2 !important;
+	border: 0px;
+	font-family: OpenSans-light;
+	text-align: center;
+	color: #99b5c4 !important;
+	padding: 5px !important;
+	font-size: 12px;
+	height: 40px;
+}
+/*==== Map Page ends here ====*/
+/*================================= Item Description Page starts here ==============================================*/
+
+.itemDescription h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+.itemDescriptionImg {
+	width: 404px;
+	height: 404px;
+	border-radius: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 20px solid rgba(255,255,255,0.2);
+}
+.itemDescriptionImg img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+	border-radius: 500px;
+}
+.itemDescription h3 {
+	color: #fff;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 24px;
+}
+.itemDescription h5 {
+	color: #000;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 16px;
+}
+.itemDescription h6 {
+	color: #000;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+}/*==== Item Description Page ends here ====*/
+/*================================= payment Option Page starts here ==============================================*/
+
+.paymentMode {
+	margin-bottom: 80px;
+}
+.paymentMode h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+.paymentMode h3 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 24px;
+	margin-top: 0px;
+}
+.paymentMode .creditIcon, .paymentMode .mobileMoneyIcon {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.mobileMoneyIcon {
+	margin-top: 50px;
+}
+.paymentMode .creditIcon a, .paymentMode .mobileMoneyIcon a {
+	color: #000 !important;
+	text-shadow: none !important;
+	text-decoration: none !important;
+	font-weight: normal !important;
+	font-family: Opensans;
+}/*==== payment Option Page ends here =====*/
+/*================================= CreditCard Option Page starts here ==============================================*/
+
+.creditanddebit h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+.creditanddebit h3 {
+	font-family: Opensans-light !important;
+	color: #000 !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 24px;
+	margin-top: 0px;
+}
+.ui-select {
+	width: 100% !important;
+	margin-bottom: 10px;
+}
+.ui-select a {
+	background: rgba(255,255,255,0.2);
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	height: 54px;
+	color: #000 !important;
+	font-family: Opensans !important;
+	font-weight: normal !important;
+	text-shadow: none !important;
+	text-decoration: none !important;
+}
+.ui-select a:hover {
+	background: rgba(255,255,255,0.2) !important;
+	border: 0px !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	height: 54px !important;
+}
+.ui-btn-inner {
+	border-top: 0px !important;
+}
+.ui-btn-inner {
+	padding: 0.9em 20px !important;
+}
+.ui-btn-text {
+	text-align: left;
+}
+.ui-input-text {
+	border-radius: 0px !important;
+	height: 54px;
+	width: 100% !important;
+	background: rgba(255,255,255,0.2) !important;
+	border: 0px !important;
+	box-shadow: none !important;
+	padding: 0px !important;
+	margin-bottom: 10px;
+}
+form {
+	width: 90%;
+	margin: 0 auto;
+}
+form h5 {
+	float: left;
+	text-shadow: none;
+	font-family: Opensans;
+	color: #000;
+	font-weight: normal;
+	font-size: 20px;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 5px !important;
+}
+.textBox {
+	background: none !important;
+	color: #000 !important;
+	font-family: Opensans !important;
+	font-weight: normal !important;
+	text-shadow: none !important;
+	margin-top: -8px !important;
+	text-indent: 20px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+ color:    #000 !important;
+}
+.ui-br {
+	border: 0px !important;
+}
+.year .ui-select {
+	width: 47.5% !important;
+	float: left;
+}
+.year .ui-select:first-child {
+	margin-right: 5%;
+}
+.ui-body-a, .ui-overlay-a {
+	background: #c8ac77 !important;
+}
+.ui-btn-active {
+	background: #c8ac77 !important;
+}
+.ui-btn-text {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.ui-btn-up-c {
+	border: 0px !important
+}
+.ui-btn .ui-btn-inner {
+	padding: 0px !important;
+}
+.ui-select {
+	display: block;
+	position: relative;
+	text-indent: 20px;
+	line-height: 50px;
+	color: #000 !important;
+}
+/*==== CreditCard Option Page ends here =====*/
+
+/*================================= Mobile Money Page starts here ==============================================*/
+
+.mobileMoneypayment h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 28px;
+	margin-top: 0px;
+}
+.mobileMoneypayment h3 {
+	font-family: Opensans-light !important;
+	color: #000 !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 24px;
+	margin-top: 0px;
+}
+.textBox1 {
+	background: none !important;
+	color: #000 !important;
+	font-family: Opensans !important;
+	font-weight: normal !important;
+	text-shadow: none !important;
+	margin-top: -8px !important;
+	text-indent: 20px;
+}
+.textarea1 {
+	height: 130px !important;
+	color: #000;
+	text-shadow: none !important;
+	font-family: opensans;
+	padding-top: 20px !important;
+	padding-left: 20px !important;
+}
+.ui-radio input {
+	width: 30px !important;
+	height: 30px !important;
+	background: rgba(255,255,255,0.2);
+	opacity: 0.5 !important;
+	left: 0px !important;
+}
+/*================================= Message SuccessFul Page starts here ==============================================*/
+
+.messagebox {
+	width: 400px;
+	height: 400px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 500px;
+	margin: 0 auto;
+	border: 20px solid rgba(255,255,255,0.1);
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.messagebox h3 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 28px;
+	font-weight: normal;
+	margin-top: 120px;
+}
+.messagebox h5 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 20px;
+	font-weight: normal;
+}/*==== CMessage SuccessFul Page ends here =====*/
+/*================================= Remider Page starts here ==============================================*/
+.reminderpanel h4 {
+	font-family: Opensans-light !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 20px;
+	margin-top: 0px;
+}
+.reminderpanel ul {
+	list-style: none !important;
+	width: 90%;
+	padding-left: 0px !important;
+	margin: 0px !important;
+}
+.reminderpanel ul li {
+	list-style: none !important;
+	width: 100% !important;
+	float: left;
+	margin-bottom: 20px;
+}
+.reminderpanel ul li a img {
+	float: left;
+}
+.swipeBtn img {
+	width: 30px;
+}
+/*================================= Custom Media Queries Starts Here ==============================================*/
+@media (min-width: 300px) and ( max-width: 380px) {
+.logo img {
+	width: 200px;
+}
+.birthdaylist ul li h4 {
+	font-size: 18px;
+}
+.reminderDetails {
+	float: left;
+	width: 63%;
+	cursor: pointer;
+}
+.reminderDetails .name {
+	font-family: Opensans-light;
+	color: #000;
+	font-style: italic;
+	font-size: 14px;
+}
+.reminderDetails .date {
+	font-family: Opensans-light;
+	color: #fff;
+	font-size: 12px;
+}
+.img {
+	float: right;
+	margin-top: 0px;
+}
+.img img {
+	width: 80px;
+}
+.swipeBtn img {
+	width: 30px;
+}
+.bottomBtn img {
+	width: 80px;
+}
+.birthdaylist ul {
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+	margin-bottom: 30px;
+}
+.innerReminder {
+	float: right;
+	width: 77%;
+}
+.birthdaylist ul li {
+	margin-bottom: 20px;
+}
+#itemContent ul {
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+#itemContent ul li {
+	width: 100%;
+}
+#itemContent ul li:last-child {
+	margin-bottom: 0px;
+}
+#itemContent ul li .pastriesImg {
+	float: left;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	background: #fff;
+	border-radius: 150px;
+	margin-right: 10px;
+}
+.pastryName {
+	text-align: left;
+	color: #000;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: none;
+	float: left;
+	width: 68%;
+}
+.pastryName h3 {
+	font-weight: normal;
+	font-size: 16px !important;
+	margin-top: 0px;
+	float: left;
+	margin-left: 10px;
+}
+.pastryName span img {
+	width: 20px;
+}
+.itemDescriptionImg {
+	width: 200px;
+	height: 200px;
+	border-radius: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 10px solid rgba(255,255,255,0.2);
+}
+.itemDescription h3 {
+	color: #fff;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+}
+.itemDescription a img {
+	width: 80px;
+}
+.messagebox {
+	width: 200px;
+	height: 200px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 500px;
+	margin: 0 auto;
+	border: 10px solid rgba(255,255,255,0.1);
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.messagebox h3 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 50px;
+}
+.messagebox h5 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 14px;
+	font-weight: normal;
+}
+.reminderpanel ul li a img {
+	float: left;
+	width: 80px;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+.reminderpanel ul li a {
+	text-decoration: none !important;
+}
+.reminderpanel ul li a h5 {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+	text-decoration: none !important;
+	font-family: opensans;
+	text-align: left;
+	text-shadow: none !important;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.loginForm .signin img, .loginForm .signup img {
+	width: 70px;
+}
+.paymentMode .creditIcon img, .paymentMode .mobileMoneyIcon img {
+	width: 90px;
+}
+.paymentMode {
+	margin-bottom: 30px;
+}
+.mapfeatures ul li img {
+	width: 30px;
+	margin-top: 4px;
+}
+.circle {
+	width: 250px;
+	height: 250px;
+	border: 3px dotted #fff;
+}
+#pastryBtn {
+	width: 70px;
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+}
+#cakeBtn {
+	width: 70px;
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+}
+#flowerBtn {
+	width: 70px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+#giftBtn {
+	width: 70px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.drophere {
+	width: 150px;
+	height: 150px;
+	background: rgba(0,0,0,0.25);
+	border-radius: 300px;
+	margin: 0 auto;
+	top: 48px;
+	position: absolute;
+	left: 48px;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: none;
+	font-family: Opensans-light;
+	font-size: 18px;
+}
+#drop img {
+	width: 100px;
+	position: absolute;
+	left: 26px;
+	top: 26px;
+}
+#drop span {
+	margin-top: 60px;
+	float: left;
+	margin-left: 31px;
+}
+}
+@media (min-width: 381px) and ( max-width: 480px) {
+.logo img {
+	width: 250px;
+}
+.birthdaylist ul li h4 {
+	font-size: 22px;
+	margin-top: 0px;
+}
+.reminderDetails {
+	float: left;
+	width: 63%;
+	cursor: pointer;
+}
+.reminderDetails .name {
+	font-family: Opensans-light;
+	color: #000;
+	font-style: italic;
+	font-size: 20px;
+}
+.reminderDetails .date {
+	font-family: Opensans-light;
+	color: #fff;
+	font-size: 16px;
+}
+.img {
+	margin-top: 0px;
+	float: right;
+}
+.img img {
+	width: 100px;
+}
+.bottomBtn img {
+	width: 100px;
+}
+.innerReminder {
+	float: right;
+	width: 81%;
+}
+.birthdaylist ul li {
+	margin-bottom: 20px;
+}
+#itemContent ul {
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+#itemContent ul li {
+	width: 100%;
+}
+#itemContent ul li:last-child {
+	margin-bottom: 0px;
+}
+#itemContent ul li .pastriesImg {
+	float: left;
+	width: 90px;
+	height: 90px;
+	position: relative;
+	background: #fff;
+	border-radius: 150px;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+.pastryName {
+	text-align: left;
+	color: #000;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: none;
+	float: left;
+	width: 65%;
+}
+.pastryName h3 {
+	font-weight: normal;
+	font-size: 18px !important;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.pastryName span img {
+	width: 20px;
+}
+.itemDescriptionImg {
+	width: 250px;
+	height: 250px;
+	border-radius: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 15px solid rgba(255,255,255,0.2);
+}
+.itemDescription h3 {
+	color: #fff;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+}
+.itemDescription a img {
+	width: 90px;
+}
+.messagebox {
+	width: 250px;
+	height: 250px;
+	background: rgba(255,255,255,0.2);
+	border-radius: 500px;
+	margin: 0 auto;
+	border: 15px solid rgba(255,255,255,0.1);
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.messagebox h3 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 50px;
+}
+.messagebox h5 {
+	font-family: opensans;
+	color: #000;
+	text-shadow: none;
+	font-size: 18px;
+	font-weight: normal;
+}
+.reminderpanel ul li a img {
+	float: left;
+	width: 100px;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+.reminderpanel ul li a {
+	text-decoration: none !important;
+}
+.reminderpanel ul li a h5 {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+	text-decoration: none !important;
+	font-family: opensans;
+	text-align: left;
+	text-shadow: none !important;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.loginForm .signin img, .loginForm .signup img {
+	width: 90px;
+}
+.paymentMode .creditIcon img, .paymentMode .mobileMoneyIcon img {
+	width: 110px;
+}
+.mapfeatures ul li img {
+	width: 30px;
+	margin-top: 4px;
+}
+.circle {
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+#pastryBtn {
+	width: 90px;
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+}
+#cakeBtn {
+	width: 90px;
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+}
+#flowerBtn {
+	width: 90px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+#giftBtn {
+	width: 90px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.drophere {
+	width: 150px;
+	height: 150px;
+	background: rgba(0,0,0,0.25);
+	border-radius: 300px;
+	margin: 0 auto;
+	top: 70px;
+	position: absolute;
+	left: 78px;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: none;
+	font-family: Opensans-light;
+	line-height: 140px;
+	font-size: 20px;
+}
+}
+@media (min-width: 481px) and ( max-width: 580px) {
+.logo img {
+	width: 300px;
+}
+.birthdaylist ul li h4 {
+	font-size: 28px;
+	margin-top: 0px;
+}
+.reminderDetails {
+	float: left;
+	width: 63%;
+	cursor: pointer;
+}
+.reminderDetails .name {
+	font-family: Opensans-light;
+	color: #000;
+	font-style: italic;
+	font-size: 24px;
+}
+.reminderDetails .date {
+	font-family: Opensans-light;
+	color: #fff;
+	font-size: 18px;
+}
+.img {
+	margin-top: 0px;
+	float: right;
+}
+.img img {
+	width: 120px;
+}
+.bottomBtn img {
+	width: 120px;
+}
+.birthdaylist ul li {
+	margin-bottom: 40px;
+}
+#itemContent ul {
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+#itemContent ul li {
+	width: 100%;
+}
+#itemContent ul li:last-child {
+	margin-bottom: 0px;
+}
+#itemContent ul li .pastriesImg {
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: #fff;
+	border-radius: 150px;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+.pastryName {
+	text-align: left;
+	color: #000;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: none;
+	float: left;
+	width: 65%;
+	margin-top: 23px;
+}
+.pastryName h3 {
+	font-weight: normal;
+	font-size: 20px !important;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.pastryName span img {
+	width: 20px;
+}
+.itemDescriptionImg {
+	width: 300px;
+	height: 300px;
+	border-radius: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 15px solid rgba(255,255,255,0.2);
+}
+.itemDescription h3 {
+	color: #fff;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+}
+.itemDescription a img {
+	width: 100px;
+}
+.reminderpanel ul li a img {
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.reminderpanel ul li a {
+	text-decoration: none !important;
+}
+.reminderpanel ul li a h5 {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+	text-decoration: none !important;
+	font-family: opensans;
+	text-align: left;
+	text-shadow: none !important;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.loginForm .signin img, .loginForm .signup img {
+	width: 100px;
+}
+.paymentMode .creditIcon img, .paymentMode .mobileMoneyIcon img {
+	width: 130px;
+}
+.mapfeatures ul li img {
+	width: 35px;
+	margin-top: 4px;
+}
+.circle {
+	width: 350px;
+	height: 350px;
+	position: relative;
+}
+#pastryBtn {
+	width: 100px;
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+}
+#cakeBtn {
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+}
+#flowerBtn {
+	width: 100px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+#giftBtn {
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+.drophere {
+	width: 200px;
+	height: 200px;
+	background: rgba(0,0,0,0.25);
+	border-radius: 300px;
+	margin: 0 auto;
+	top: 70px;
+	position: absolute;
+	left: 78px;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: none;
+	font-family: Opensans-light;
+	line-height: 190px;
+	font-size: 24px;
+}
+}
+@media (min-width: 581px) and ( max-width: 640px) {
+.logo img {
+	width: 300px;
+}
+.birthdaylist ul li h4 {
+	font-size: 38px;
+}
+.reminderDetails {
+	float: left;
+	width: 63%;
+	cursor: pointer;
+}
+.reminderDetails .name {
+	font-family: Opensans-light;
+	color: #000;
+	font-style: italic;
+	font-size: 28px;
+}
+.reminderDetails .date {
+	font-family: Opensans-light;
+	color: #fff;
+	font-size: 22px;
+}
+.img {
+	margin-top: 0px;
+	float: right;
+}
+.img img {
+	width: 160px;
+}
+.bottomBtn img {
+	width: 160px;
+}
+.birthdaylist ul li {
+	margin-bottom: 40px;
+}
+#itemContent ul {
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+#itemContent ul li {
+	width: 100%;
+}
+#itemContent ul li:last-child {
+	margin-bottom: 0px;
+}
+#itemContent ul li .pastriesImg {
+	float: left;
+	width: 130px;
+	height: 130px;
+	position: relative;
+	background: #fff;
+	border-radius: 150px;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+.pastryName {
+	text-align: left;
+	color: #000;
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: none;
+	float: left;
+	width: 65%;
+	margin-top: 23px;
+}
+.pastryName h3 {
+	font-weight: normal;
+	font-size: 26px !important;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+.pastryName span img {
+	width: 20px;
+}
+.itemDescriptionImg {
+	width: 350px;
+	height: 350px;
+	border-radius: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 20px solid rgba(255,255,255,0.2);
+}
+.itemDescription h3 {
+	color: #fff;
+	font-family: OpenSans;
+	text-shadow: none;
+	font-weight: normal;
+}
+.cancel {
+	margin-right: 50px;
+}
+.itemDescription a img {
+	width: 100px;
+}
+.reminderpanel ul {
+	margin-left: 30px;
+}
+.reminderpanel ul li a img {
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.reminderpanel ul li a {
+	text-decoration: none !important;
+}
+.reminderpanel ul li a h5 {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+	text-decoration: none !important;
+	font-family: opensans;
+	text-align: left;
+	text-shadow: none !important;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.paymentMode .creditIcon img, .paymentMode .mobileMoneyIcon img {
+	width: 130px;
+}
+.mapfeatures ul li img {
+	width: 35px;
+	margin-top: 4px;
+	margin-right: 40px;
+}
+.drophere {
+	width: 250px;
+	height: 250px;
+	background: rgba(0,0,0,0.25);
+	border-radius: 300px;
+	margin: 0 auto;
+	top: 70px;
+	position: absolute;
+	left: 78px;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: none;
+	font-family: Opensans-light;
+	line-height: 230px;
+	font-size: 28px;
+}
+}
