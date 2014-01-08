@@ -26,6 +26,7 @@ img {
 	float: left;
 	width: 100%;
 }
+#map-canvas{ height:770px;}
 /*================================= Login Page Styles Starts here =================================*/
 .loginForm h3 {
 	font-family: Opensans-light;
@@ -335,6 +336,7 @@ img {
 	-moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
 	box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
 	position: absolute;
+	z-index:1;
 }
 .searchBar h4 {
 	width: 100%;
