@@ -1,25 +1,21 @@
-//
-//function allowDrop(ev)
-//{
-//ev.preventDefault();
-//}
-//
-//var touchzone = document.getElementById('#circle');
-//touchzone.addEventListener('touchstart',drag, false);
-//
-//function drag(ev){
-//	alert();
-//	ev.dataTransfer.setData("Text",ev.target.id);
-//}
-//
-//function drop(ev)
-//{
-//ev.preventDefault();
-//var data=ev.dataTransfer.getData("Text");
-//ev.target.appendChild(document.getElementById(data));
-//location.href = '#map';
-//}
+window.addEventListener('load', function(){
+var left =0, touch, top = 0;
+var drag = document.getElementById('pastryBtn');
+drag.addEventListener('touchstart', function(e) {
+    touch = e.target;
+    left = touch.pageX ;
+	top = touch.pageY;
+},false);
 
+drag.addEventListener('touchmove',function(e) {
+    touch = e.target;
+	var leftx = (touch.pageX) - left;
+	var topx = (touch.pageY) - top;
+	$(touch).css({"left": leftx + 'px', "top" : topx + 'px'});
+},false);
+});
+
+//==================================================== Google Maps Script ========================================================
 function initialize() {
   var mapOptions = {
     zoom: 4,
