@@ -1,20 +1,13 @@
-window.addEventListener('load', function(){
-var left =0, touch, top = 0;
-var drag = document.getElementById('pastryBtn');
-drag.addEventListener('touchstart', function(e) {
-    touch = e.target;
-    left = touch.pageX ;
-	top = touch.pageY;
-},false);
-
-drag.addEventListener('touchmove',function(e) {
-    touch = e.target;
-	var leftx = (touch.pageX) - left;
-	var topx = (touch.pageY) - top;
-	$(touch).css({"left": leftx + 'px', "top" : topx + 'px'});
-},false);
+$(document).ready(function(e) {
+    $('#pastryBtn, #cakeBtn, #flowerBtn, #giftBtn').draggable({
+			revert : 'valid'
+		});
+	$('.drophere').droppable({
+		 drop:function(){
+			 	location.href = "#map"
+			 } 
+		})
 });
-
 //==================================================== Google Maps Script ========================================================
 function initialize() {
   var mapOptions = {
