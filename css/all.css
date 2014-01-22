@@ -26,7 +26,12 @@ img {
 	float: left;
 	width: 100%;
 }
-#map-canvas{ height:100vh; width:100%; position:relative; float:left;}
+#map-canvas {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	float: left;
+}
 /*================================= Login Page Styles Starts here =================================*/
 .loginForm h3 {
 	font-family: Opensans-light;
@@ -50,6 +55,20 @@ img {
 	text-decoration: none;
 	font-family: Opensans-light;
 }
+.loginForm a img{ -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 5px 0px rgba(59, 89, 153,0.7);
+	-moz-box-shadow: 0px 5px 0px rgba(59, 89, 153,0.7);
+	box-shadow: 0px 5px 0px rgba(59, 89, 153,0.7);
+	}
+.loginForm a img:active{
+	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	position: relative;
+	top: 7px;	
+}
 .signUp {
 	width: 50%;
 	float: left;
@@ -62,6 +81,20 @@ img {
 	text-decoration: none;
 	font-family: Opensans-light;
 }
+.signUp a img{
+	border-radius:500px;
+	 -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+}
+.signUp a img:active{-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	position: relative;
+	top: 7px;	}
 .signIn {
 	width: 50%;
 	float: right;
@@ -74,21 +107,47 @@ img {
 	text-decoration: none;
 	font-family: Opensans-light;
 }
-.continue{ width:90%; color:#000 !important; font-family:Opensans-light; font-size:15px; text-align:center; background:rgba(255,255,255,0.5); display:block; margin:0 auto; height:50px; border-radius:3px; text-shadow:none !important; text-decoration:none !important; line-height:50px;
--webkit-transition: all 0.1s;
+.signIn a img{
+	border-radius:500px;
+	 -webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	transition: all 0.1s;
-	
-	-webkit-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
-        -moz-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
-        box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
 }
-.continue:active{
+.signIn a img:active{-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	position: relative;
+	top: 7px;	}
+.continue {
+	width: 90%;
+	color: #000 !important;
+	font-family: Opensans-light;
+	font-size: 15px;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+	border-radius: 3px;
+	text-shadow: none !important;
+	text-decoration: none !important;
+	line-height: 50px;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+	-moz-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+	box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+}
+.continue:active {
 	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
-    position:relative;
-    top:7px;
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.5);
+	position: relative;
+	top: 7px;
 }
 /*================================= Home Page Styles Starts here =================================*/
 .birthdaylist {
@@ -352,7 +411,7 @@ img {
 	-moz-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
 	box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.59);
 	position: absolute;
-	z-index:1;
+	z-index: 1;
 }
 .searchBar h4 {
 	width: 100%;
@@ -477,8 +536,40 @@ img {
 	text-align: center;
 	float: left;
 }
+.creditIcon a img{
+	 border-radius:500px;
+	 -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+}
+.creditIcon a img:active{
+	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	position: relative;
+	top: 7px;	
+}
 .mobileMoneyIcon {
 	margin-top: 50px;
+}
+.mobileMoneyIcon a img{
+	 border-radius:500px;
+	 -webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	-moz-box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+	box-shadow: 0px 3px 0px 0px rgba(255,255,255,0.5);
+}
+.mobileMoneyIcon a img:active{
+	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.3);
+	position: relative;
+	top: 7px;	
 }
 .paymentMode .creditIcon a, .paymentMode .mobileMoneyIcon a {
 	color: #000 !important;
@@ -1396,6 +1487,12 @@ form h5 {
 }
 .cancel {
 	margin-right: 50px;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+	-moz-box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
+	box-shadow: 0px 5px 0px rgba(204,204,204,0.4);
 }
 .itemDescription a img {
 	width: 100px;
