@@ -26,7 +26,7 @@ img {
 	float: left;
 	width: 100%;
 }
-#map-canvas{ height:770px;}
+#map-canvas{ height:770px; width:100%; position:relative; float:left;}
 /*================================= Login Page Styles Starts here =================================*/
 .loginForm h3 {
 	font-family: Opensans-light;

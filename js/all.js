@@ -1,6 +1,7 @@
 $(document).ready(function(e) {
     $('#pastryBtn, #cakeBtn, #flowerBtn, #giftBtn').draggable({
-			revert : 'valid'
+			revert : true,
+			containment: "parent"
 		});
 	$('.drophere').droppable({
 		 drop:function(){
@@ -8,6 +9,13 @@ $(document).ready(function(e) {
 			 } 
 		})
 });
+
+$(document).on("pageinit", "#category", function () {
+         $('#pastryBtn, #cakeBtn, #flowerBtn, #giftBtn').draggable({
+			revert : true,
+			containment: "parent"
+		});
+    });
 //==================================================== Google Maps Script ========================================================
 function initialize() {
   var mapOptions = {
