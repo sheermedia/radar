@@ -45,7 +45,6 @@ function initialize() {
     map.setCenter(marker.getPosition());
 	location.href = "#chooseItem"
   });
-  
-  google.maps.event.addDomListener(window, 'load', initialize);
 }
 
+google.maps.event.addDomListener(window, 'load', initialize);
