@@ -48,3 +48,7 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$(document).bind('pageinit', function () {
+    $.mobile.defaultPageTransition = 'none';
+});
